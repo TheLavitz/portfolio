@@ -1,0 +1,20 @@
+.layout {
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.contact {
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
