@@ -1,16 +1,28 @@
-import React from 'react'
+import React from "react";
+import linkedIn from "./images/LI-In-Bug.png";
+import gitHub from "./images/github-mark.png";
 
 const Links = () => {
   return (
     <div className="card">
-      <h1>Links</h1>
-      <ul>
-        <li>Link 1</li>
-        <li>Link 2</li>
-        <li>Link 3</li>
-      </ul>
+      <span>
+        <a href="https://www.linkedin.com/in/coreycass/">My LinkedIn</a>
+        <img
+          src={linkedIn}
+          alt="LinkedIn Bug"
+          style={{ width: "25px", height: "auto" }}
+        />
+      </span>
+      <span>
+        <a href="https://github.com/TheLavitz">My GitHub</a>
+        <img
+          src={gitHub}
+          alt="GitHub Mark"
+          style={{ width: "25px", height: "auto" }}
+        />
+      </span>
     </div>
-  )
-}
+  );
+};
 
-export default Links
+export default Links;

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="card">
-      <h1>Contact</h1>
+    <div className="horizontal-card">
+      <h3>Contact</h3>
     </div>
   )
 }

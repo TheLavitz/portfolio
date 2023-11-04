@@ -1,25 +1,23 @@
 import React from "react";
-import Header from "./components/Header";
+import Title from "./components/Title";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Links from "./components/Links";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
-      <Header />
-      <div className="layout">
-        <About />
-        <Projects />
-        <Links />
-      </div>
-      <div className="contact">
+      <div className="table">
+        <Title />
+        <div className="spread">
+          <About />
+          <Projects />
+          <Links />
+        </div>
         <Contact />
       </div>
-      <Footer />
     </>
   );
 };
