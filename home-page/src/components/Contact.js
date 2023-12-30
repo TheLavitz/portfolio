@@ -18,6 +18,8 @@ const Contact = () => {
     message: "",
   });
 
+  const formattedData = `${formData.message}\n${formData.email}\n${formData.firstName} ${formData.lastName}`;
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -30,7 +32,7 @@ const Contact = () => {
 
   const generateMailtoLink = () => {
     const subject = encodeURIComponent("Portfolio Contact");
-    const body = encodeURIComponent(JSON.stringify(formData, null, 2));
+    const body = encodeURIComponent(formattedData);
     return `mailto:lavitz@gmail.com?subject=${subject}&body=${body}`;
   };
 
