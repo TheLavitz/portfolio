@@ -75,13 +75,15 @@ const Projects = () => {
               </p>
               <p>
                 GitHub:{" "}
-                <a href="https://github.com/TheLavitz/cat-tinder-frontend"></a>
-                Frontend
+                <a href="https://github.com/TheLavitz/cat-tinder-frontend">
+                  Frontend
+                </a>
               </p>
               <p>
                 GitHub:{" "}
-                <a href="https://github.com/TheLavitz/cat-tinder-backend"></a>
-                Backend
+                <a href="https://github.com/TheLavitz/cat-tinder-backend">
+                  Backend
+                </a>
               </p>
             </AccordionBody>
           </AccordionItem>
