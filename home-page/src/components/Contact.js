@@ -3,7 +3,6 @@ import {
   Card,
   CardBody,
   CardTitle,
-  CardText,
   Form,
   FormGroup,
   Label,
@@ -30,9 +29,9 @@ const Contact = () => {
   };
 
   const generateMailtoLink = () => {
-    const subject = encodeURIComponent("New Form Submission");
+    const subject = encodeURIComponent("Portfolio Contact");
     const body = encodeURIComponent(JSON.stringify(formData, null, 2));
-    return `mailto:recipient-email@example.com?subject=${subject}&body=${body}`;
+    return `mailto:lavitz@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
